@@ -1,5 +1,48 @@
 # Jovo Framework Changelog
 
+## 1.4.16 (November 06, 2018)
+* Fixed Nested State Metadata Conflicts issue #275
+
+
+## 1.4.15 (November 02, 2018)
+* Added [Alexa Reminders](https://developer.amazon.com/docs/smapi/alexa-reminders-overview.html)
+
+## 1.4.14 (November 02, 2018)
+* [#264](https://github.com/jovotech/jovo-framework-nodejs/pull/264) Fixed handle requests without session attributes [@theBenForce](https://github.com/theBenForce)
+
+## 1.4.13 (October 11, 2018)
+* [#261](https://github.com/jovotech/jovo-framework-nodejs/pull/265) Fixed SequenceBuilder being added multiple times [@theBenForce](https://github.com/theBenForce)
+* [#264](https://github.com/jovotech/jovo-framework-nodejs/pull/264) Fixed handle requests without session attributes [@theBenForce](https://github.com/theBenForce)
+
+
+## 1.4.12 (October 7, 2018)
+* [#261](https://github.com/jovotech/jovo-framework-nodejs/pull/261) Added Alexa ApiEndpoint fallback [@shmatul](https://github.com/shmatul)
+* [#259](https://github.com/jovotech/jovo-framework-nodejs/pull/259) Added addAskForNotificationPermission for GoogleAction [@gwythyr](https://github.com/gwythyr)
+
+## 1.4.11 (October 2, 2018)
+* Fixed handler merging and GadgetController
+
+## 1.4.10 (September 26, 2018)
+* [#254](https://github.com/jovotech/jovo-framework-nodejs/pull/254) Fix for webhook exception handling during unit tests  - [@IGx89](https://github.com/IGx89)
+* Added SpeechBuilder export
+* Fixed Alexa ContactAPI (temperatureUnit)
+
+## 1.4.9 (September 14, 2018)
+* [#248](https://github.com/jovotech/jovo-framework-nodejs/pull/248) Added context to askForSignIn()  - [@kouz75](https://github.com/kouz75)
+* [#247](https://github.com/jovotech/jovo-framework-nodejs/pull/247) Added Azure Functions error handling fixes  - [@IGx89](https://github.com/IGx89)
+
+## 1.4.8 (September 11, 2018)
+* Fixed bug in handler (Intents were called after tell/ask in NEW_SESSION, NEW_USER, ON_REQUEST )
+
+## 1.4.7 (September 07, 2018)
+* Added Jovo Debugger config file integration (Beta)
+* Fixed async functionality in handleLambda() method 
+
+
+## 1.4.6 (August 30, 2018)
+* Added Display Template Preview to Jovo Debugger plugin
+
+
 ## 1.4.5 (August 22, 2018)
 * Added Alexa Settings API integration (Timezone, Distance Measurement Unit, Temperature Measurement Unit)
 
